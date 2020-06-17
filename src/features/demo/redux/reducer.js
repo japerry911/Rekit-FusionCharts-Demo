@@ -10,11 +10,13 @@ import initialState from './initialState';
 import { reducer as counterPlusOneReducer } from './counterPlusOne';
 import { reducer as counterMinusOneReducer } from './counterMinusOne';
 import { reducer as fetchRedditListReducer } from './fetchRedditList';
+import { reducer as fetchBarChartDataReducer } from './fetchBarChartData';
 
 const reducers = [
   counterPlusOneReducer,
   counterMinusOneReducer,
   fetchRedditListReducer,
+  fetchBarChartDataReducer,
 ];
 
 export default function reducer(state = initialState, action) {

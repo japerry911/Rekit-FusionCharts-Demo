@@ -9,7 +9,10 @@ const initialState = {
   count: 0,
   redditList: [],
   fetchRedditListPending: false,
-  fetchRedditListError: null
+  fetchRedditListError: null,
+  barChartData: [],
+  fetchBarChartDataPending: false,
+  fetchBarChartDataError: null
 };
 
 export default initialState;
