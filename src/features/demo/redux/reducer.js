@@ -9,10 +9,12 @@
 import initialState from './initialState';
 import { reducer as counterPlusOneReducer } from './counterPlusOne';
 import { reducer as counterMinusOneReducer } from './counterMinusOne';
+import { reducer as fetchRedditListReducer } from './fetchRedditList';
 
 const reducers = [
   counterPlusOneReducer,
   counterMinusOneReducer,
+  fetchRedditListReducer,
 ];
 
 export default function reducer(state = initialState, action) {
